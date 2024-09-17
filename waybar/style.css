@@ -1,0 +1,67 @@
+@import "colors.css";
+
+* {
+    border: none;
+    border-radius: 13px;
+    font-family: "UbuntuMono Nerd Font" ;
+    font-size: 18px;
+    min-height: 0px;
+}
+
+#waybar {
+	background: transparent;
+	color: @color;
+	margin: 0;
+}
+
+.modules-left {
+	background: @background;
+}
+
+#custom-launcher,
+#window {
+	padding: 0px 8px;
+	margin-right: 4px;	
+}
+
+#window button {
+	margin: 0 3px;
+}
+
+.modules-center {
+	background: @background;
+}
+#workspaces {
+	padding: 0 5px;
+}
+
+#workspaces button {
+  padding: 0 5px;
+  background-color: transparent;
+  color: @sky;
+}
+#workspaces button:hover {
+  background: rgba(0, 0, 0, 0.1);
+	box-shadow: none;
+	text-shadow: none;
+}
+#workspaces button.focused {
+  background-color: @lavender;
+  box-shadow: inset 0 -3px #ffffff;
+}
+#workspaces button.urgent {
+  background-color: #eb4d4b;
+}
+
+.modules-right {
+	background: @background;
+}
+
+#tray,
+#cpu,
+#memory,
+#pulseaudio,
+#clock {
+	padding: 0px 8px;
+	margin-left: 4px;
+}
