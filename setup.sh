@@ -10,6 +10,8 @@ ln -f $PWD/home-manager/zsh.nix /home/$USER/.config/home-manager/
 # link nixos files
 #sudo ln -sf $PWD/nixos /etc/
 sudo ln -f $PWD/nixos/configuration.nix /etc/nixos/
+
+# hardware-configuration can change between devices!
 sudo ln -f $PWD/nixos/hardware-configuration.nix /etc/nixos/
 sudo ln -f $PWD/nixos/flake.nix /etc/nixos/
 sudo ln -f $PWD/nixos/flake.lock /etc/nixos/
