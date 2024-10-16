@@ -1,4 +1,4 @@
 configuration {
-font: "JetBrainsMono Nerd Font";
+font: "JetBrainsMono Nerd Font 12";
 show-icons: true;
 }
