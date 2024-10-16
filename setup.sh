@@ -24,3 +24,11 @@ ln -f $PWD/hypr/hyprpaper.conf /home/$USER/.config/hypr/
 
 # Kitty
 ln -f $PWD/kitty/kitty.conf /home/$USER/.config/kitty/
+
+# Rofi
+ln -f $PWD/rofi/config.rasi /home/$USER/.config/rofi/
+
+# Waybar
+ln -f $PWD/waybar/config /home/$USER/.config/waybar/
+ln -f $PWD/waybar/style.css /home/$USER/.config/waybar/
+ln -f $PWD/waybar/colors.css /home/$USER/.config/waybar/

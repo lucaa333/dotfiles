@@ -1,0 +1,4 @@
+configuration {
+font: "JetBrainsMono Nerd Font";
+show-icons: true;
+}
